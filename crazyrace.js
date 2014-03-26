@@ -42,13 +42,29 @@ mobiles = [
     }
 ];
 
+getMobilePath = function(i){
+    return mobilesLocation + mobiles[i].file;
+}
+
+function Player(){
+    this.name = "Some dude";
+    this.mobile = getMobilePath(0);
+}
+
+
+racers = [
+    new Player("vince", 2),
+];
+
+
+
 
 function buildTrack (number){
     numberOfRacers = number;
     readyTrack = "";
     divHeight = ($(window).height()/numberOfRacers)*.85;
     for(i = 0; i < numberOfRacers; ++i){
-        readyTrack+="<div id=\"" + i + "\"style=\"height:" + divHeight + "\"><img class=\"" + i + "\" style=\"height:" + divHeight + "\" src=\"balloon.png\"></div><br />";
+        readyTrack+="<div id=\"" + i + "\"style=\"height:" + divHeight + "\"><img class=\"" + i + "\" style=\"height:" + divHeight + "\" src=\"" + racers[0].mobile + " \"></div><br />";
     }
     $("#raceTrack").html(readyTrack);
     divID=numberOfRacers;
