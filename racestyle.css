@@ -1,0 +1,64 @@
+/* 
+    Document   : racestyle
+    Created on : Oct 27, 2009, 1:10:54 AM
+    Author     : Owner
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body{
+    width:100%;
+    height:100%;
+}
+
+
+  img {
+
+    position:absolute;
+    
+    margin: 5px;
+  }
+
+  div #raceTrack{
+      width:100%;
+      height:100%;
+      overflow:hidden;
+      
+  }
+#alert
+{
+	overflow: hidden;
+	z-index: 999;
+	width: 200px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: #333;
+	height: 0;
+	color: #fff;
+	font: 20px/40px arial, sans-serif;
+}
+#alert2
+{
+	overflow: hidden;
+	z-index: 999;
+	width: 200px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: #333;
+	height:auto;
+        padding:5px;
+	color: #fff;
+	font: 20px/40px arial, sans-serif;
+}
