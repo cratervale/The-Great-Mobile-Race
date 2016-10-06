@@ -7,6 +7,6 @@ I wrote this web toy in 2009 when I was learning jQuery.  It's inspired in part 
 
 
 #### Future
-Web technologies (and my programmin' skills) have come a long way since 2009, and so this repo requires some work to iron out the many wrinkles.  
+Web technologies (and my programmin' skills) have come a long way since 2009, and so this project requires some work.  
 
-I have always had plans to add additional mobiles to the race, giving users to race anything that could conceivably go fast.  The amazingly talented  illustrator [Max Wittert](http://home.maxwittert.com/) has made a number of delightful sketches for this project.  As of today, they are still sitting in the images directory, waiting to be integrated.  Sorry Max.
+I have plans to add additional mobiles to the race.  The amazingly talented  illustrator [Max Wittert](http://home.maxwittert.com/) has made a number of delightful sketches for this project.  As of today, they are still sitting in the images directory, waiting to be integrated.
